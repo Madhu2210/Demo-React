@@ -27,6 +27,8 @@
 
 import React, { Component } from 'react';
 import './App.css';
+import CommentCount from './Components/HOC/CommentCount';
+import LikeCount from './Components/HOC/LikeCount';
 import PureDemo from './Components/PureDemo';
 import PureFunction from './Components/PureFunction';
 
@@ -34,7 +36,9 @@ function App(){
   return (
     <div className="App">
     {/* <PureDemo /> */}
-    <PureFunction />
+    {/* <PureFunction /> */}
+    <LikeCount />
+    <CommentCount />
     </div>
   );
 }

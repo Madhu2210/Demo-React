@@ -17,4 +17,3 @@ const PureFunction =() => {
     );
 }
 export default memo (PureFunction);
-
