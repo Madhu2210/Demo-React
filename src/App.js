@@ -28,17 +28,21 @@
 import React, { Component } from 'react';
 import './App.css';
 import CommentCount from './Components/HOC/CommentCount';
+import Like from './Components/HOC/LikeCount';
 import LikeCount from './Components/HOC/LikeCount';
 import PureDemo from './Components/PureDemo';
 import PureFunction from './Components/PureFunction';
+import Comment from './Components/HOC/CommentCount';
 
 function App(){
   return (
     <div className="App">
     {/* <PureDemo /> */}
     {/* <PureFunction /> */}
-    <LikeCount />
-    <CommentCount />
+    {/* <LikeCount />
+    <CommentCount /> */}
+      <Like />
+      <Comment />
     </div>
   );
 }
