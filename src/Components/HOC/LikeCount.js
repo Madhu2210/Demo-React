@@ -13,5 +13,5 @@ class LikeCount extends Component {
     }
 }
 
-const Like = HOC(LikeCount);
+const Like = HOC(LikeCount,10);
 export default Like;

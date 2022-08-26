@@ -13,5 +13,5 @@ class CommentCount extends Component {
     }
 }
 
-const Comment = HOC(CommentCount);
+const Comment = HOC(CommentCount,15);
 export default Comment;
